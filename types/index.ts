@@ -30,12 +30,32 @@ export interface CarProps {
     year: number;
 }
 
+export interface CarData{
+    id: number;
+    brand: string;
+    typename: string;
+    year: number;
+    mileage: number;
+    dealer: string;
+    rating: number;
+    reviews: number;
+    price: number;
+}
+
 export interface FilterProps {
     manufacturer: string;
     year: number;
     fuel: string;
     limit: number;
     model: string;
+}
+
+export interface FilterData {
+    brand: string;
+    typename: string;
+    year: number;
+    mileage: number;
+    price: number;
 }
 
 export interface OptionProps {
