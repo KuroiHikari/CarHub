@@ -1,36 +1,49 @@
+# CarHub website using Next.js and API from RapidAPI
+
+This is a web application built with Next.js that allows users to search and explore various car models, view detailed specifications, and generate images of cars from different angles. It uses data from multiple APIs hosted on RapidAPI for car specifications and car image generation.
+
+![image](https://github.com/user-attachments/assets/c05e5257-f7e8-4133-b77f-f31a2d401552)
+
+##Features
+- **Car Search:** Search for any car model using a user-friendly search interface
+- **Car Specifications:** View detailed information such as kW, weight, price, fuel type, etc., for each car model
+- **Car Images:** Generate images of cars from different angles to visualize the car better
+- **Responsive Design:** The site is responsive and works seamlessly across various devices
+
+## Technologies Used
+- **Frontend:** Next.js
+- **APIs:** Car specifications and Car image API from RapidAPI
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+Ensure that you have the following installed on your machine:
+- **Node.js**
+
+### Installation
+#### 1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
+git clone https://github.com/your-username/CashFlare.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Set up the FrontEnd:
+- Make sure you're in CashFlare/frontend folder
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. API keys:
+- You will need to create an account on [RapidAPI] and get API keys from [Car API](https://rapidapi.com/carapi/api/car-api2) and [Cars by API-Ninjas](https://rapidapi.com/apininjas/api/cars-by-api-ninjas)
+- Replace your API keys in CarHub/utils/index.ts (YOUR_CAR_API_KEY) and (YOUR_NINJA_CAR_API_KEY)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Running the Application
+- Make sure you're in CarHub folder
+``` bash
+  npm run dev
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+####URLs
+- FrontEnd => http://localhost:5014/
