@@ -4,7 +4,7 @@ This is a web application built with Next.js that allows users to search and exp
 
 ![image](https://github.com/user-attachments/assets/c05e5257-f7e8-4133-b77f-f31a2d401552)
 
-##Features
+## Features
 - **Car Search:** Search for any car model using a user-friendly search interface
 - **Car Specifications:** View detailed information such as kW, weight, price, fuel type, etc., for each car model
 - **Car Images:** Generate images of cars from different angles to visualize the car better
