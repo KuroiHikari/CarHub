@@ -29,13 +29,13 @@ Ensure that you have the following installed on your machine:
 git clone https://github.com/your-username/CashFlare.git
 ```
 
-### 2. Set up the FrontEnd:
+#### 2. Set up the FrontEnd:
 - Make sure you're in CashFlare/frontend folder
 ```bash
 npm install
 ```
 
-### 3. API keys:
+#### 3. API keys:
 - You will need to create an account on [RapidAPI] and get API keys from [Car API](https://rapidapi.com/carapi/api/car-api2) and [Cars by API-Ninjas](https://rapidapi.com/apininjas/api/cars-by-api-ninjas)
 - Replace your API keys in CarHub/utils/index.ts (YOUR_CAR_API_KEY) and (YOUR_NINJA_CAR_API_KEY)
 
@@ -45,5 +45,5 @@ npm install
   npm run dev
 ```
 
-#### URLs
+### URLs
 - FrontEnd => http://localhost:5014/
